@@ -16,7 +16,7 @@ setup(
     name                 = "verobject",
     version              = __import__("verobject").__version__,
     description          = "Version controlled object database on Redis",
-    long_description     = read("README.txt"),
+    long_description     = read("README.rst"),
     author               = "Justine Tunney",
     author_email         = "jtunney@lobstertech.com",
     url                  = "https://github.com/jart/verobject",
