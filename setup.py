@@ -19,6 +19,7 @@ setup(
     long_description     = read("README.rst"),
     author               = "Justine Tunney",
     author_email         = "jtunney@lobstertech.com",
+    url                  = "https://github.com/jart/verobject",
     license              = "MIT",
     install_requires     = ["redis"],
     py_modules           = ["verobject"],
