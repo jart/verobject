@@ -6,13 +6,17 @@
 from ez_setup import use_setuptools
 use_setuptools(version="0.6c11")
 
+import os
 from setuptools import setup
+
+def read(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
     name                 = "verobject",
     version              = __import__("verobject").__version__,
     description          = "Version controlled object database on Redis",
-    long_description     = __import__("verobject").__doc__,
+    long_description     = read("README.rst"),
     author               = "Justine Tunney",
     author_email         = "jtunney@lobstertech.com",
     license              = "MIT",
