@@ -28,7 +28,7 @@ ur"""
     verobject
     ~~~~~~~~~
 
-    Version controlled object database on redis.
+    Version controlled object database on Redis.
 
     I am simple but not space efficient.
 
